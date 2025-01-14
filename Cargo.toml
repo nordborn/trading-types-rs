@@ -3,6 +3,9 @@ name = "trading-types"
 version = "0.1.0"
 repository = "https://github.com/nordborn/trading-types-rs"
 edition = "2021"
+license = "MIT"
+authors = ["Nordborn"]
+description = "trading-types provides type definitions (and some utils) as building blocks for type-safe trading"
 
 [dependencies]
 chrono = { version = "0.4", features = ["serde"] } 
