@@ -7,7 +7,7 @@ use serde::{Deserialize, Serialize};
 use crate::{Amount, Price};
 
 /// Worth (cost) = price * amount
-#[derive(Serialize, Deserialize, Debug, Copy, Clone, PartialOrd, PartialEq, sqlx::Type)]
+#[derive(Serialize, Deserialize, Debug, Copy, Clone, PartialOrd, PartialEq)]
 pub struct Worth(pub f64);
 
 impl Eq for Worth {}
