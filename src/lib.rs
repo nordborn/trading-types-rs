@@ -1,8 +1,5 @@
-#![allow(dead_code)]
-
 mod amount;
 mod depth;
-mod depth_util;
 mod depthmap;
 mod depths;
 mod liq;
@@ -15,6 +12,7 @@ mod symbol;
 mod trade;
 mod worth;
 
+pub mod depth_util;
 pub mod my_date_formatter;
 pub mod my_duration_formatter;
 
